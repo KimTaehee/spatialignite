@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: local
+
+#ignite-custom:
+#  backup: 1
+
+ignite-client:
+  addresses: 13.125.111.34:10800..10900
+  timeout: 10
+  partitionAwarenessEnabled: true
+
+server:
+  port: 80
+  servlet:
+    context-path: /spatialignite
+
+debug: true

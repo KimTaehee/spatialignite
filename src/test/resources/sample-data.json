@@ -1,0 +1,512 @@
+[
+  {
+    "_id": "5f04212a74dc206ca2b973fe",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.6822257,
+        33.3938847
+      ]
+    },
+    "properties": {
+      "business_id": "ScYkbYNkDgCneBrD9vqhCQ",
+      "name": "Junction Tire & Auto Service",
+      "stars": 5,
+      "review_count": 18,
+      "categories": "Auto Repair, Oil Change Stations, Automotive, Tires"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b973ff",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.8902637,
+        33.5694041
+      ]
+    },
+    "properties": {
+      "business_id": "Yzvjg0SayhoZgCljUJRF9Q",
+      "name": "Carlos Santo, NMD",
+      "stars": 5,
+      "review_count": 4,
+      "categories": "Health & Medical, Fitness & Instruction, Yoga, Active Life, Pilates"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97400",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.8526119,
+        35.4627242
+      ]
+    },
+    "properties": {
+      "business_id": "f9NumwFMBDn751xgFiRbNA",
+      "name": "The Range At Lake Norman",
+      "stars": 3.5,
+      "review_count": 36,
+      "categories": "Active Life, Gun/Rifle Ranges, Guns & Ammo, Shopping"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97401",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.7266485,
+        33.4280652
+      ]
+    },
+    "properties": {
+      "business_id": "51M2Kk903DFYI6gnB5I6SQ",
+      "name": "USE MY GUY SERVICES LLC",
+      "stars": 4.5,
+      "review_count": 26,
+      "categories": "Home Services, Plumbing, Electricians, Handyman, Contractors"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97402",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -115.241463,
+        36.0639767
+      ]
+    },
+    "properties": {
+      "business_id": "oiAlXZPIFm2nBCt0DHLu_Q",
+      "name": "Green World Cleaners",
+      "stars": 3.5,
+      "review_count": 81,
+      "categories": "Dry Cleaning & Laundry, Local Services, Laundry Services"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97403",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.8271417,
+        33.3503993
+      ]
+    },
+    "properties": {
+      "business_id": "cKyLV5oWZJ2NudWgqs8VZw",
+      "name": "Oasis Auto Center - Gilbert",
+      "stars": 4.5,
+      "review_count": 38,
+      "categories": "Auto Repair, Automotive, Oil Change Stations, Transmission Repair"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97404",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -115.1277255,
+        36.2197281
+      ]
+    },
+    "properties": {
+      "business_id": "6OAZjbxqM5ol29BuHsil3w",
+      "name": "Nevada House of Hose",
+      "stars": 2.5,
+      "review_count": 3,
+      "categories": "Hardware Stores, Home Services, Building Supplies, Home & Garden, Shopping"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97405",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -73.58007,
+        45.479984
+      ]
+    },
+    "properties": {
+      "business_id": "XNoUzKckATkOD1hP6vghZg",
+      "name": "Felinus",
+      "stars": 5,
+      "review_count": 5,
+      "categories": "Pets, Pet Services, Pet Groomers"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97406",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.0044502,
+        40.4066674
+      ]
+    },
+    "properties": {
+      "business_id": "7Dv4_HAxsxvadEsT5fxQBg",
+      "name": "Dependable Brakes & Exhaust",
+      "stars": 5,
+      "review_count": 5,
+      "categories": "Automotive, Auto Repair"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97407",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.9516598,
+        33.3038687
+      ]
+    },
+    "properties": {
+      "business_id": "JjJs3o60uQCfctDjs45cmA",
+      "name": "Convertabath",
+      "stars": 2.5,
+      "review_count": 10,
+      "categories": "Contractors, Home Services, Local Services"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97408",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -79.5291079302,
+        43.6245394916
+      ]
+    },
+    "properties": {
+      "business_id": "EosRKXIGeSWFYWwpkbhNnA",
+      "name": "Xtreme Couture",
+      "stars": 3,
+      "review_count": 16,
+      "categories": "Martial Arts, Gyms, Fitness & Instruction, Active Life"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97409",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -115.0934834,
+        35.9520457
+      ]
+    },
+    "properties": {
+      "business_id": "rqcOZePlVvJP9EtzldIz0w",
+      "name": "Desert Storage",
+      "stars": 5,
+      "review_count": 5,
+      "categories": "Local Services, Self Storage"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9740a",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -115.1676084101,
+        36.1257322229
+      ]
+    },
+    "properties": {
+      "business_id": "uZuh51lXu7tsrC8RAwkg1A",
+      "name": "Manolo Blahnik",
+      "stars": 4.5,
+      "review_count": 32,
+      "categories": "Shopping, Shoe Stores, Fashion"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9740b",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -115.1798386,
+        36.263362
+      ]
+    },
+    "properties": {
+      "business_id": "kOICO53wbOiOJcKuCgOQ3A",
+      "name": "Tan Las Vegas",
+      "stars": 3.5,
+      "review_count": 5,
+      "categories": "Beauty & Spas, Tanning"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9740c",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.8953784,
+        33.4115139
+      ]
+    },
+    "properties": {
+      "business_id": "nIEhsGbw0vJuYl05bzzj6Q",
+      "name": "Bloom & Blueprint",
+      "stars": 4.5,
+      "review_count": 7,
+      "categories": "Event Planning & Services, Wedding Planning, Flowers & Gifts, Shopping, Party & Event Planning, Florists"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9740d",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -114.0372072,
+        50.9459599
+      ]
+    },
+    "properties": {
+      "business_id": "MbZMmwo-eL0Jnm_Yb9KJrA",
+      "name": "Chinook Landscaping and Design",
+      "stars": 5,
+      "review_count": 3,
+      "categories": "Contractors, Landscaping, Home Services"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9740e",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.9790228,
+        34.9811205
+      ]
+    },
+    "properties": {
+      "business_id": "edQoeeBFUTYGwnUSE0tGPg",
+      "name": "Car Guyz",
+      "stars": 4.5,
+      "review_count": 10,
+      "categories": "Auto Customization, Tires, Motorcycle Repair, Automotive, Oil Change Stations, Auto Repair"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9740f",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.767442,
+        35.194894
+      ]
+    },
+    "properties": {
+      "business_id": "CsLQLiRoafpJPJSkNX2h5Q",
+      "name": "Middle East Deli",
+      "stars": 3,
+      "review_count": 5,
+      "categories": "Food, Restaurants, Grocery, Middle Eastern"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97410",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.9458111,
+        35.3857568
+      ]
+    },
+    "properties": {
+      "business_id": "idgGrA8gt699JDUPKyiHJw",
+      "name": "North Carolina Brewers And Music Festival",
+      "stars": 4,
+      "review_count": 3,
+      "categories": "Festivals, Arts & Entertainment"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97411",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -112.1851785,
+        33.5389498
+      ]
+    },
+    "properties": {
+      "business_id": "x3Po6tJGb729u_HJPY6UCA",
+      "name": "Glendale Glitters",
+      "stars": 2.5,
+      "review_count": 52,
+      "categories": "Arts & Entertainment, Festivals, Local Flavor"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97412",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -89.5101417974,
+        43.1053100891
+      ]
+    },
+    "properties": {
+      "business_id": "M_guz7Dj7hX0evS672wIwA",
+      "name": "Chocolate Shoppe Ice Cream",
+      "stars": 3.5,
+      "review_count": 6,
+      "categories": "Desserts, Food, Ice Cream & Frozen Yogurt"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97413",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -111.6858686,
+        33.3207235
+      ]
+    },
+    "properties": {
+      "business_id": "Vwo64kNYDjKi98gUUv4-iQ",
+      "name": "Gateway Fit Body Boot Camp",
+      "stars": 4.5,
+      "review_count": 16,
+      "categories": "Weight Loss Centers, Fitness & Instruction, Boot Camps, Health & Medical, Active Life, Gyms, Trainers, Interval Training Gyms"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97414",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -81.1526976,
+        35.2528422
+      ]
+    },
+    "properties": {
+      "business_id": "mKTq1T_IAplDpHUcMzOXkw",
+      "name": "Tipsy Ryde",
+      "stars": 3.5,
+      "review_count": 3,
+      "categories": "Hotels & Travel, Transportation, Taxis, Beer, Wine & Spirits, Food, Food Delivery Services"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97415",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -79.448677,
+        44.0109618
+      ]
+    },
+    "properties": {
+      "business_id": "eBEfgOPG7pvFhb2wcG9I7w",
+      "name": "Philthy Phillys",
+      "stars": 4.5,
+      "review_count": 4,
+      "categories": "Restaurants, Cheesesteaks, Poutineries"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97416",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -88.2330726,
+        40.1104457
+      ]
+    },
+    "properties": {
+      "business_id": "pQeaRpvuhoEqudo3uymHIQ",
+      "name": "The Empanadas House",
+      "stars": 4.5,
+      "review_count": 5,
+      "categories": "Ethnic Food, Food Trucks, Specialty Food, Imported Food, Argentine, Food, Restaurants, Empanadas"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97417",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -79.3813076,
+        43.6565424
+      ]
+    },
+    "properties": {
+      "business_id": "1wWneWD_E1pBIyVpdHMaQg",
+      "name": "Air Jordan Store",
+      "stars": 4,
+      "review_count": 9,
+      "categories": "Shopping, Shoe Stores, Fashion"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97418",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -79.3984661,
+        43.8204923
+      ]
+    },
+    "properties": {
+      "business_id": "lu7vtrp_bE9PnxWfA8g4Pg",
+      "name": "Banzai Sushi",
+      "stars": 4.5,
+      "review_count": 7,
+      "categories": "Japanese, Fast Food, Food Court, Restaurants"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b97419",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -80.758757852,
+        35.1880178706
+      ]
+    },
+    "properties": {
+      "business_id": "0pOlmHVeidsh63iAWdTAfg",
+      "name": "Hendrick Motors of Charlotte - Mercedes-Benz",
+      "stars": 2.5,
+      "review_count": 32,
+      "categories": "Auto Repair, Car Dealers, Automotive"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9741a",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -73.6119339,
+        45.4256452
+      ]
+    },
+    "properties": {
+      "business_id": "pcaQDBM6r0PWTXfYZK6RdA",
+      "name": "IGA Extra",
+      "stars": 3,
+      "review_count": 6,
+      "categories": "Food, Grocery"
+    }
+  },
+  {
+    "_id": "5f04212a74dc206ca2b9741b",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -112.0304348,
+        33.6336893
+      ]
+    },
+    "properties": {
+      "business_id": "07cgbTbANYhVDfzTMOkB9w",
+      "name": "Frontier Automotive",
+      "stars": 4.5,
+      "review_count": 17,
+      "categories": "Automotive, Auto Repair"
+    }
+  }
+]

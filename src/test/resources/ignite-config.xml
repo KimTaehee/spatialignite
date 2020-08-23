@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>                                                                                                                                                                          <!--                                                                                                      Licensed to the Apache Software Foundation (ASF) under one or more                                      contributor license agreements.  See the NOTICE file distributed with                                   this work for additional information regarding copyright ownership.                                     The ASF licenses this file to You under the Apache License, Version 2.0                                 (the "License"); you may not use this file except in compliance with                                    the License.  You may obtain a copy of the License at                                                                                                                                                                http://www.apache.org/licenses/LICENSE-2.0                                                                                                                                                                 Unless required by applicable law or agreed to in writing, software                                     distributed under the License is distributed on an "AS IS" BASIS,                                       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.                                See the License for the specific language governing permissions and                                     limitations under the License.                                                                        -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+       http://www.springframework.org/schema/util/spring-util.xsd">
+    <bean id="ignite.cfg"
+          class="org.apache.ignite.configuration.IgniteConfiguration">
+        <!-- Disable compact footer -->
+        <property name="binaryConfiguration">
+            <bean class="org.apache.ignite.configuration.BinaryConfiguration">
+                <property name="compactFooter" value="false"/>
+            </bean>
+        </property>
+        <!-- Redefining maximum memory size for the cluster node usage. -->
+        <property name="dataStorageConfiguration">
+            <bean class="org.apache.ignite.configuration.DataStorageConfiguration">
+                <!-- set the size of wal segments to 1 GB -->
+                <property name="walSegmentSize"
+                          value="#{1 * 1024 * 1024 * 1024}"/>
+                <!-- Redefining the default region's settings -->
+                <property name="dataRegionConfigurations">
+                    <list>
+                        <!--
+                        Defining a data region that will consume up to 500 MB of RAM and
+                        will have eviction and persistence enabled.                                                         -->
+                        <bean class="org.apache.ignite.configuration.DataRegionConfiguration">
+                            <!-- Custom region name. -->
+                            <property name="name" value="GEODATA_DATA_REGION"/>
+                        </bean>
+                    </list>
+                </property>
+            </bean>
+        </property>
+        <property name="cacheConfiguration">
+            <list>
+                <!-- Cache that is mapped to a specific data region. -->
+                <bean class="org.apache.ignite.configuration.CacheConfiguration">
+                    <property name="dataRegionName" value="GEODATA_DATA_REGION"/>
+                    <property name="name" value="GEODATA_CACHE"/>
+                    <property name="queryEntities">
+                        <list>
+                            <bean class="org.apache.ignite.cache.QueryEntity">
+                                <!-- Setting indexed type's key class -->
+                                <property name="keyType"
+                                          value="codes.dirty.example.spatialignite.model.GeodataKey"/>                                                                                                                           <!-- Setting indexed type's value class -->
+                                <property name="valueType"
+                                          value="codes.dirty.example.spatialignite.model.Geodata"/>                                                                                                                            <!-- Defining fields that will be either indexed or queryable.                                          Indexed fields are added to 'indexes' list below.-->
+                                <property name="fields">
+                                    <map>
+                                        <entry key="geometryType" value="java.lang.String"/>
+                                        <entry key="longitude" value="java.lang.Double"/>
+                                        <entry key="latitude" value="java.lang.Double"/>
+                                        <entry key="businessId" value="java.lang.String"/>
+                                        <entry key="name" value="java.lang.String"/>
+                                        <entry key="stars" value="java.lang.Double"/>
+                                        <entry key="reviewCount" value="java.lang.Long"/>
+                                        <entry key="categories" value="java.lang.String"/>
+                                        <entry key="mongoId" value="java.lang.String"/>
+                                    </map>
+                                </property>
+                                <property name="notNullFields">
+                                    <list>
+                                        <value>geometryType</value>
+                                        <value>longitude</value>
+                                        <value>latitude</value>
+                                        <value>businessId</value>
+                                        <value>name</value>
+                                        <value>mongoId</value>
+                                    </list>
+                                </property>
+                                <!-- Defining indexed fields.-->
+                                <property name="indexes">
+                                    <list>
+                                        <!-- Single field (aka. column) index -->
+                                        <bean class="org.apache.ignite.cache.QueryIndex">
+                                            <constructor-arg value="businessId"/>
+                                            <property name="inlineSize" value="80"/>
+                                        </bean>
+                                        <bean class="org.apache.ignite.cache.QueryIndex">
+                                            <constructor-arg value="mongoId"/>
+                                            <property name="inlineSize" value="64"/>
+                                        </bean>
+                                    </list>
+                                </property>
+                            </bean>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+</beans>
