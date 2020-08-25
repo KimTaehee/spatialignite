@@ -3,6 +3,9 @@ package codes.dirty.example.spatialignite.controller.dto;
 import codes.dirty.example.spatialignite.model.Geodata;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
+import org.locationtech.jts.geom.Point;
+import org.locationtech.jts.io.ParseException;
+import org.locationtech.jts.io.WKTReader;
 
 @Getter
 @Setter
@@ -19,23 +22,33 @@ public class GeoJsonGeodata {
     private Properties properties;
 
     public Geodata toGeodata() {
-        return Geodata.builder()
-                .geometryType(geometry.getType())
-                .longitude(geometry.getCoordinates()[0])
-                .latitude(geometry.getCoordinates()[1])
-                .businessId(properties.getBusinessId())
-                .name(properties.getName())
-                .stars(properties.getStars())
-                .reviewCount(properties.getReviewCount())
-                .categories(properties.getCategories())
-                .mongoId(mongoId)
-                .build();
+        final WKTReader r = new WKTReader();
+        try {
+            return Geodata.builder()
+                    .geometryType(geometry.getType())
+                    .point((Point) new WKTReader().read("POINT(" +
+                            geometry.getCoordinates()[0] +
+                            " " +
+                            geometry.getCoordinates()[1] + ")"))
+                    .businessId(properties.getBusinessId())
+                    .name(properties.getName())
+                    .stars(properties.getStars())
+                    .reviewCount(properties.getReviewCount())
+                    .categories(properties.getCategories())
+                    .mongoId(mongoId)
+                    .build();
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @NoArgsConstructor
     @Data
     static class Geometry {
         private String type;
+        /**
+         * [0] is longitude, [1] is latitude
+         */
         private Double[] coordinates;
     }
 

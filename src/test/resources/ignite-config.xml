@@ -52,8 +52,7 @@
                                 <property name="fields">
                                     <map>
                                         <entry key="geometryType" value="java.lang.String"/>
-                                        <entry key="longitude" value="java.lang.Double"/>
-                                        <entry key="latitude" value="java.lang.Double"/>
+                                        <entry key="point" value="org.locationtech.jts.geom.Point"/>
                                         <entry key="businessId" value="java.lang.String"/>
                                         <entry key="name" value="java.lang.String"/>
                                         <entry key="stars" value="java.lang.Double"/>
@@ -65,8 +64,7 @@
                                 <property name="notNullFields">
                                     <list>
                                         <value>geometryType</value>
-                                        <value>longitude</value>
-                                        <value>latitude</value>
+                                        <value>point</value>
                                         <value>businessId</value>
                                         <value>name</value>
                                         <value>mongoId</value>
